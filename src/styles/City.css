@@ -1,0 +1,47 @@
+.city-box {
+  height: 35px;
+  width: 62px;
+  position: relative;
+  top: 0;
+  box-shadow: 0px 0px 6px rgba(0, 3, 6, 0.16);
+}
+
+.city-name {
+  line-height: 35px;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+  .city-box {
+    height: 22px;
+    width: 40px;
+  }
+
+  .city-name {
+    line-height: 22px;
+    font-size: 11px;
+  }
+
+}
+
+.san {
+  background-image: linear-gradient(to right, #0CA9E0, #006CA1);
+}
+
+.nyc {
+  background-image: linear-gradient(to right, #EC840B, #961D66);
+}
+
+.lond {
+  background-image: linear-gradient(to right, #82C5B2, #CED836);
+}
+
+.man {
+  background-image: linear-gradient(to right, #662483, #006CA1);
+}

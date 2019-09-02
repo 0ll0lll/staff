@@ -1,0 +1,143 @@
+.card {
+  position: relative;
+  height: 325px;
+  width: 245px;
+  background: #fff;
+  box-shadow: 0px 0px 6px rgba(0, 3, 10, 0.10);
+  margin: 20px 0;
+}
+
+.bg-pic {
+  height: 245px;
+  width: 100%;
+  background-image: url('https://source.unsplash.com/featured/?man');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 3px solid #662483;
+}
+
+.name, .job-title {
+  margin-left: 15px;
+  color: #273044;
+}
+
+.name {
+  margin-top: 20px;
+  font-size: 19px;
+}
+
+.job-title {
+  margin-top: 6px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.details-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 28px;
+  width: 28px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px rgba(0, 3, 6, 0.16);
+  bottom: 92px;
+  right: 9px;
+  cursor: pointer;
+}
+
+.dot {
+  height: 4px;
+  width: 4px;
+  margin: 0 1px;
+  background-color: #0CA9E0;
+  border-radius: 50%;
+}
+
+.san {
+  background-color: #0CA9E0;
+}
+
+.nyc {
+  background-color: #EC840B;
+}
+
+.lond {
+  background-color: #82C5B2;
+}
+
+.man {
+  background-color: #662483;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+
+  .card {
+    position: relative;
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0px 0px 6px rgba(0, 3, 10, 0.10);
+    margin: 9px 0;
+  }
+
+  .name {
+    font-size: 17px;
+  }
+
+  .job-title {
+    font-size: 13px;
+  }
+
+  .info-wrapper {
+    width: calc(100% - 80px);
+  }
+
+  .bg-pic {
+    height: 100%;
+    width: 80px;
+    background-image: url('https://source.unsplash.com/featured/?man');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-right: 3px solid #662483;
+    border-bottom: none;
+  }
+
+  .name {
+    margin-top: 15px;
+  }
+
+  .details-button {
+    height: 21px;
+    width: 21px;
+    bottom: 8px;
+    right: 9px;
+  }
+
+  .job-title {
+    width: 80%;
+  }
+
+}
+
+.san-border {
+  border-color: #0CA9E0;
+}
+
+.nyc-border {
+  border-color: #EC840B;
+}
+
+.lond-border {
+  border-color: #82C5B2;
+}
+
+.man-border {
+  border-color: #662483;
+}
